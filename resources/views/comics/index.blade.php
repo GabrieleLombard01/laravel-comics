@@ -4,7 +4,7 @@
 
 @section('main-content')
     <div class="container-lg position-relative">
-        <div class="main_title">
+        <div class="main_title_c">
             <h1 class="text-white">CURRENT SERIES</h1>
         </div>
 
