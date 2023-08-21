@@ -9,7 +9,7 @@
         </div>
 
         <!-- contents: -->
-        <h1 class="pt-4 text-white">Hello world</h1>
+        <h1 class="pt-5 text-danger">This is Home!</h1>
 
     </div>
 @endsection

@@ -10,7 +10,7 @@
         </div>
 
         <!-- contents: -->
-        <h1 class="pt-4 text-white">Hello world</h1>
+        <h1 class="pt-5 text-white">Work in progress...</h1>
 
     </div>
 @endsection
