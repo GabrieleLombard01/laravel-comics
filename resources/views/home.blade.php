@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- HEADER: -->
     <header>
         <div class="blue_header">
             <div class="container-lg">
@@ -48,6 +49,9 @@
             </nav>
         </div>
     </header>
+
+    <!-- JUMBO: -->
+    <div class="jumbo"></div>
 
     <main>
         <h1>Hello world</h1>
