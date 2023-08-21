@@ -10,8 +10,13 @@
     <meta name="description" content="Riproduzione del sito DC Comics">
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/ico">
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
+
+    {{-- Eventuali CDN --}}
+    @yield('cdns')
+
     {{-- Importiamo gli asset --}}
     @vite('resources/js/app.js')
+
 </head>
 
 <body>
@@ -30,13 +35,14 @@
     {{-- NAVBAR --}}
     @include('includes.navbar')
 
-
     {{-- DETAILS --}}
     @include('includes.details')
 
-
     {{-- FOOTER --}}
     @include('includes.footer')
+
+    {{-- Eventuali script --}}
+    @yield('scripts')
 
 </body>
 
