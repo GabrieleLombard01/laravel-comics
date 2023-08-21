@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <!-- HEADER: -->
     <header>
         <div class="blue_header">
@@ -53,8 +54,17 @@
     <!-- JUMBO: -->
     <div class="jumbo"></div>
 
+    <!-- MAIN: -->
     <main>
-        <h1>Hello world</h1>
+        <div class="container-lg position-relative">
+            <div class="main_title">
+                <h1 class="text-white">HOME</h1>
+            </div>
+
+            <!-- contents: -->
+            <h1>Hello world</h1>
+
+        </div>
     </main>
 </body>
 
