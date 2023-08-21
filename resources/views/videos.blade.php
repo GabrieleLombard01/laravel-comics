@@ -15,6 +15,8 @@
 </head>
 
 <body>
+
+    <!-- HEADER: -->
     <header>
         <div class="blue_header">
             <div class="container-lg">
@@ -51,7 +53,117 @@
 
     <!-- JUMBO: -->
     <div class="jumbo"></div>
-    <h1>Videos</h1>
+
+    <!-- MAIN: -->
+    <main>
+        <div class="container-lg position-relative">
+            <div class="main_title">
+                <h1 class="text-white">VIDEOS</h1>
+            </div>
+
+            <!-- contents: -->
+            <h1 class="pt-4 text-white">Hello world</h1>
+
+        </div>
+    </main>
+
+    <!-- CATEGORY: -->
+    <div class="category-box">
+        <div class="container-lg">
+            <ul class="d-flex justify-content-between">
+                <li>
+                    <figure>
+                        <a href="#"><img src="{{ asset('images/buy-comics-digital-comics.png') }}"
+                                alt="cat_1"></a>
+                    </figure>
+                    <a href="">DIGITAL COMICS</a>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img class="pt-2" src="{{ asset('images/buy-comics-merchandise.png') }}"
+                                alt="cat_1"></a>
+                    </figure>
+                    <a href="">DC MERCHANDISE</a>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img class="pt-2" src="{{ asset('images/buy-comics-subscriptions.png') }}"
+                                alt="cat_1"></a>
+                    </figure>
+                    <a href="">SUBSCRIPTION</a>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img class="w-75 pt-1"
+                                src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="cat_1"></a>
+                    </figure>
+                    <a href="">COMIC SHOP LOCATOR</a>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img src="{{ asset('images/buy-comics-digital-comics.png') }}"
+                                alt="cat_1"></a>
+                    </figure>
+                    <a href="">DC POWER VISA</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DETAILS: -->
+    <div class="details-box">
+        <div class="container-lg d-flex align-items-center">
+            <div class="col-6">
+                <div class="d-flex gap-5">
+                    <ul>
+                        <h3 class="text-white">DC COMICS</h3>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Comics</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">News</a></li>
+                        <h3 class="text-white">SHOP</h3>
+                        <li><a href="#">Shop DC</a></li>
+                        <li><a href="#">Shop DC Collectibles</a></li>
+                    </ul>
+                    <ul>
+                        <h3 class="text-white">DC</h3>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Comics</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                    </ul>
+                    <ul>
+                        <h3 class="text-white">SITES</h3>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Comics</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <small class="ps-4 text-light">All sites Content TM and 2020 DC Entertainment, unless otherwise noted
+                    here.
+                    All rights
+                    reserved.</small>
+            </div>
+            <div class="col-6">
+                <img src="{{ asset('images/dc-logo-bg.png') }}" alt="logo_2">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
