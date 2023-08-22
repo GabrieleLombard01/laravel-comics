@@ -29,11 +29,13 @@ Route::get('/comics', function () {
     return view('comics.index', compact('products'));
 })->name('comics');
 
-Route::get('/product', function () {
-    $product = config('comics')[0];
+Route::get('/product/{index}', function ($index) {
+    $products = config('comics');
+
+    $product = $products[$index];
 
     return view('product', compact('product'));
-});
+})->name('product');
 
 // Rotta movies
 Route::get('/movies', function () {
