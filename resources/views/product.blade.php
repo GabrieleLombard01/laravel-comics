@@ -23,4 +23,30 @@
         </div>
 
     </div>
+
+    <div class="comic-info-second-box">
+        <div class="container-lg d-flex align-items-center justify-content-center">
+
+            <div class="col-5 border ">
+                <h2 class="ps-5">Talent</h2>
+                <hr>
+                <h4 class="ps-5 d-inline">Art by</h4>
+
+                @foreach ($products as $product)
+                    <p class="d-inline-block">{{ $product['artists'] }}</p>
+                @endforeach
+
+            </div>
+
+            <div class="col-5 border">
+                <h2>Specs</h2>
+                <hr>
+                <h4 class="d-inline">Series</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
 @endsection

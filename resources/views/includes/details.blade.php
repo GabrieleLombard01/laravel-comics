@@ -41,10 +41,8 @@
                     <li><a href="#">News</a></li>
                 </ul>
             </div>
-            <small class="ps-4 text-light">All sites Content TM and 2020 DC Entertainment, unless otherwise noted
-                here.
-                All rights
-                reserved.</small>
+            <small class="ps-4 text-light">All sites Content TM and 2020 DC Entertainment.
+                Created with ❤ by Gabriele Lombardo.</small>
         </div>
         <div class="col-6">
             <img src="{{ asset('images/dc-logo-bg.png') }}" alt="logo_2">
