@@ -6,6 +6,9 @@
     padding-bottom: 4rem;
     position: relative;
 }
+.card-deck a{
+    text-decoration: none;
+}
 .my_card{
     flex-basis: calc(100% / 6.5);
     padding: 9px;
