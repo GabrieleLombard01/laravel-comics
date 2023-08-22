@@ -3,6 +3,7 @@
     height: 4.5rem;
     width: 100%;
     background-color: #0282f9;
+    position: relative;
 }
 .comic-info-box{
     padding-top: 4rem;
@@ -18,7 +19,60 @@
 }
 .comic-info-second-box{
     padding-top: 2rem;
-    padding-bottom: 4rem;
     border: solid grey 1px;
     background-color: rgb(228, 228, 228);
+}
+.comic-info-box h2{
+    font-size: 18px;
+    color: grey;
+}
+
+.myCard{
+    width: 250px;
+    position: absolute;
+    left: 220px;
+    top: 170px;
+    z-index: 1;
+}
+
+.talent-box{
+
+    width: 50%;
+    min-height: 300px;
+}
+.specs-box{
+    width: 50%;
+    min-height: 300px;
+
+}
+.comic-info-second-box h3{
+    font-weight: 700;
+    color: rgb(0, 0, 92);
+
+}
+.comic-info-second-box h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+
+}
+.comic-info-second-box small{
+    color: #0282f9;
+}
+.comic-info-second-box .col-3{
+    border: solid rgb(194, 194, 194) 1px;
+    padding: 20px;
+    font-weight: 600;
+    color: grey;
+}
+.long_card{
+    width: 90%;
+    border-bottom: solid grey 1px;
+    min-height: 60px;
+    padding: 20px;
+}
+.icons-box img{
+    width: 40px;
+    padding-left: 10px;
+    cursor: pointer;
 }
