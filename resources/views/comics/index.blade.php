@@ -13,10 +13,12 @@
 
             @foreach ($products as $product)
                 <div class="my_card">
-                    <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
-                    <div class="card-body text-center">
-                        <h5 class="pt-2 text-white">{{ $product['title'] }}</h5>
-                    </div>
+                    <a href="{{ url('/product') }}">
+                        <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
+                        <div class="card-body text-center">
+                            <h5 class="pt-2 text-white">{{ $product['title'] }}</h5>
+                        </div>
+                    </a>
                 </div>
             @endforeach
 

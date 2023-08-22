@@ -92,22 +92,22 @@
 
         <div class="container-lg icons-box">
             <div class="row align-items-center pt-4">
-                <div class="col-3 d-flex justify-content between align items center gap-4">
+                <div class="col-3 d-flex justify-content-between align-items-center gap-4">
                     <h4>DIGITAL COMICS </h4>
                     <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="icon">
 
                 </div>
-                <div class="col-3 d-flex justify-content between align items center gap-4">
+                <div class="col-3 d-flex justify-content-between align-items-center gap-4">
                     <h4> SHOP DC</h4>
                     <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="icon">
 
                 </div>
-                <div class="col-3 d-flex justify-content between align items center gap-4">
+                <div class="col-3 d-flex justify-content-between align-items-center gap-4">
                     <h4> COMIC SHOP</h4>
                     <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="icon">
 
                 </div>
-                <div class="col-3 d-flex justify-content between align items center gap-4">
+                <div class="col-3 d-flex justify-content-between align-items-center gap-4">
                     <h4>SUBSCRIPTION</h4>
                     <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="icon">
 
