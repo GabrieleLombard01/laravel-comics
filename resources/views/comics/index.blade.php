@@ -11,9 +11,9 @@
         <!-- contents: -->
         <div id="products" class="container card-deck">
 
-            @foreach ($products as $product)
+            @foreach ($products as $index => $product)
                 <div class="my_card">
-                    <a href="{{ route('/product') }}">
+                    <a href="{{ url("/product/$index") }}">
                         <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
                         <div class="card-body text-center">
                             <h5 class="pt-2 text-white">{{ $product['title'] }}</h5>
